@@ -1,8 +1,8 @@
 'use strict';
 
 
-let secretNumber = Math.trunc(Math.random() * 1) + 20;
-let score = 0;
+let secretNumber = Math.trunc(Math.random() * 1) + 1;
+let score = 3;
 let highscore = 0;
 
 const displayMessage = function (message) {

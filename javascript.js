@@ -39,7 +39,7 @@ document.querySelector('.check').addEventListener('click', function () {
     } else {
       displayMessage('💥 You lost the game!');
       document.querySelector('.score').textContent = 0;
-      document.querySelector('body').style.backgroundColor = '#f7051d';
+      document.querySelector('body').style.backgroundColor = '#f70505';
       document.querySelector('.number').style.width = '30rem';
     }
   }
